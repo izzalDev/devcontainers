@@ -1,0 +1,14 @@
+{
+  "name": "NeoVim (from prebuilt binary)",
+  "id": "neovim-prebuilt",
+  "version": "1.0.0",
+  "description": "Installs NeoVim latest version instantly from the pre-built binary",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "stable",
+      "description": "Choose the neovim release to install"
+    },
+  },
+  "installsAfter": ["ghcr.io/devcontainers/features/common-utils"]
+}
