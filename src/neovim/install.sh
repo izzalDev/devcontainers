@@ -33,5 +33,5 @@ v*)
 esac
 
 curl -LO $URL
-tar -C /usr -xzf nvim-linux-$ARCH.tar.gz
-chmod a+x /usr/bin/nvim
+tar -C /usr -xzf nvim-linux-$ARCH.tar.gz --strip-components=1
+rm nvim-linux-$ARCH.tar.gz
