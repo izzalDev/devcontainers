@@ -1,13 +1,13 @@
 
-# NeoVim (No install, from binary)
+# NeoVim (from prebuilt binary) (neovim)
 
-Install NeoVim instantly from pre-built binaries
+Installs NeoVim latest version instantly from the pre-built binary
+
+## Example Usage
 
 ```json
 "features": {
-    "ghcr.io/marcosbolanos/devcontainer-features/neovim-prebuilt:1": {
-        "version": "stable"
-    }
+    "ghcr.io/izzalDev/devcontainers/neovim:1": {}
 }
 ```
 
@@ -15,4 +15,10 @@ Install NeoVim instantly from pre-built binaries
 
 | Options Id | Description | Type | Default Value |
 |-----|-----|-----|-----|
-| Version | Choose `stable`, `nightly` or a version like `v0.11.5` | string | `stable` |
+| version | Choose the neovim release to install | string | stable |
+
+
+
+---
+
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/izzalDev/devcontainers/blob/main/src/neovim/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
