@@ -1,7 +1,7 @@
 {
   "name": "NeoVim (from prebuilt binary)",
   "id": "neovim",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Installs NeoVim latest version instantly from the pre-built binary",
   "options": {
     "version": {
